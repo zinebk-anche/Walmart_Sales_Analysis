@@ -23,3 +23,29 @@ DROP COLUMN cogs,
 DROP COLUMN gross_margin_pct,
 DROP COLUMN gross_income;
 */
+
+-- Next, we will add new features to our data to improve our analysis 
+
+-- Add columns for 'time_of_day', 'day_of_week', and 'month'
+ALTER TABLE sales
+ADD COLUMN time_of_day VARCHAR(10),
+ADD COLUMN day_of_week VARCHAR(10),
+ADD COLUMN month VARCHAR(10);
+
+-- Populate 'time_of_day' based on the 'time' of the sale
+UPDATE sales
+SET time_of_day = (
+    CASE
+        WHEN `time` BETWEEN "00:00:00" AND "12:00:00" THEN 'Morning'
+        WHEN `time` BETWEEN "12:01:00" AND "16:00:00" THEN 'Afternoon'
+        ELSE 'Evening'
+    END
+);
+
+-- Populate 'day_of_week' based on the 'date' of the sale
+UPDATE sales
+SET day_of_week = DAYNAME(date);
+
+-- Populate 'month' based on the 'date' of the sale
+UPDATE sales
+SET month = MONTHNAME(date);
