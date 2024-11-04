@@ -1,5 +1,6 @@
 # Walmart_Sales_Analysis
 A project to practice sales analysis using SQL on a fictive Walmart dataset.
+The project data and questions are from ...
 
 ## Overview
 This project aims to provide insights into Walmart's sales transactions across three branches in Burma. The analysis covers product performance, customer segments, and sales trends.
