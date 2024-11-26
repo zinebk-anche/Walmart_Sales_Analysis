@@ -34,8 +34,7 @@ The dataset `WalmartSalesData.csv` contains 17 columns and 1000 rows of sales da
 All SQL scripts for data loading, cleaning, feature engineering, and analysis can be found in the `sql_scripts/` folder.
 
 ## Dashboard 
-![The sales analysis dashboard](/Users/zineb/Desktop/dashboard.png)
+![The sales analysis dashboard](Thesalesanalysisdashboard.png)
 
-![The salas performance analysis dashboard](/Users/zineb/Desktop/dashboard.png)
 
 
