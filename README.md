@@ -36,4 +36,6 @@ All SQL scripts for data loading, cleaning, feature engineering, and analysis ca
 ## Dashboard 
 ![The sales analysis dashboard](/Users/zineb/Desktop/dashboard.png)
 
+![The salas performance analysis dashboard](/Users/zineb/Desktop/dashboard.png)
+
 
