@@ -35,6 +35,7 @@ All SQL scripts for data loading, cleaning, feature engineering, and analysis ca
 
 ## Dashboard 
 ![The sales analysis dashboard](The_sales_analysis_dashboard.png)
+Since the data is fictive, the point of this project is not to show analysis results but to demonstrate analysis techniques. 
 
 
 
