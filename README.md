@@ -25,7 +25,7 @@ The dataset `WalmartSalesData.csv` contains 17 columns and 1000 rows of sales da
 - `rating`: Customer satisfaction rating
 - **Derived Columns:** `Total_Before_Tax`, `Sales_Status`, `time_of_day`, `day_of_week`, `month`
 
-## Analysis Objectives
+## Analysis sections
 1. Product Analysis
 2. Sales Analysis
 3. Customer Analysis
