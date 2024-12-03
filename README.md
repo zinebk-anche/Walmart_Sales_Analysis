@@ -113,7 +113,7 @@ Exploratory data analysis is done to answer the listed questions and aims of thi
 
 ## **Business Questions For Analysis**
 
-**Generic Question**
+**Generic Questions**
 
 1. How many unique cities does the data have?
 
