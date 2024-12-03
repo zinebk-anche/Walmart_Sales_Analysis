@@ -336,7 +336,7 @@ ORDER BY
 SELECT
     GENDER,
     PRODUCT_LINE,
-    COUNT(*)                                                AS PRODUCT_COUNT,
+    COUNT(*) AS PRODUCT_COUNT,
     RANK() OVER(PARTITION BY GENDER ORDER BY COUNT(*) DESC)
 FROM
     SALES
