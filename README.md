@@ -1,4 +1,4 @@
-# Walmart_Sales_Analysis
+# Sales_Analysis
 A project to practice sales analysis using SQL on a fictive Walmart dataset.
 The project data and questions are from [MohammedShehbazDamkar's Walmart-Sales-Data-Analysis--SQL-Project](https://github.com/MohammedShehbazDamkar/Walmart-Sales-Data-Analysis--SQL-Project).
 **Find the answers [below](#data-wrangling)**
